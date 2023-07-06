@@ -1,0 +1,78 @@
+/* CSS pour le style moderne de la page */
+
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style de la navigation */
+  nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Style de l'en-tête */
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  
+  /* Style du conteneur des PC */
+  .pc-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Style des éléments de PC */
+  .pc-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .pc-item img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .pc-item h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .pc-item p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .pc-item p:last-child {
+    margin-bottom: 0;
+  }
