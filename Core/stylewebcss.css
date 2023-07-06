@@ -1,0 +1,117 @@
+
+/* style.css */
+
+/* Réinitialisation des styles par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #080808ec;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+nav {
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+.banner {
+  text-align: center;
+  padding: 20px;
+}
+
+.highlight {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.highlight-item {
+  text-align: center;
+}
+
+.highlight-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.highlight-item h3 {
+  margin-top: 10px;
+}
+
+.call-to-action {
+  text-align: center;
+  padding: 20px;
+}
+
+.call-to-action a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.pc-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pc-item {
+  text-align: center;
+  width: 300px;
+  margin: 20px;
+}
+
+.pc-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pc-item h2 {
+  margin-top: 10px;
+}
+
+.pc-item p {
+  margin-top: 10px;
+}
+
+.pc-item p:first-child {
+  font-weight: bold;
+}
+
+.pc-item p:last-child {
+  font-weight: bold;
+  color: #333;
+}
