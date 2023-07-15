@@ -1,0 +1,205 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #080808ec;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ff0000;
+  }
+  
+  nav ul li a.active {
+    color: #00ff00;
+  }
+  
+  /* Ajout du style pour le sous-menu */
+  .submenu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
+  .produits:hover .submenu {
+    display: block;
+  }
+  
+  .submenu li {
+    margin: 5px 0;
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .highlight {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .highlight-item {
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 0 auto;
+  }
+  
+  .highlight-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .highlight-item h3 {
+    margin-top: 10px;
+  }
+  
+  .call-to-action {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .call-to-action a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .pc-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .pc-item {
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 20px;
+  }
+  
+  .pc-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .pc-item h2 {
+    margin-top: 10px;
+  }
+  
+  .pc-item p {
+    margin-top: 10px;
+  }
+  
+  .pc-item p:first-child {
+    font-weight: bold;
+  }
+  
+  .pc-item p:last-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+
+  .social-icons {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .social-icons li {
+    font-size: 80px; /* Taille plus grande pour les icônes */
+  }
+  
+  .social-icons a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s; /* Ajout d'une transition de couleur fluide */
+  }
+  
+  .social-icons a:hover {
+    color: #ff0000; /* Nouvelle couleur au survol */
+  }
+  
+
+
+
+  .form-section {
+    margin-bottom: 30px;
+    border: 1px solid #aaa2a2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .form-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form-section p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .form-section i {
+    font-size: 24px;
+    color: #007bff; /* Couleur bleue pour l'icône de localisation */
+    margin-top: 2px;
+  }
+
+
+
+
+
+
+ 
